@@ -25,3 +25,26 @@ Suggested Approach (computeIfAbsent)
 map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
+#3 JAVA - how to iterate through hashMap
+
+1. Using entrySet() (recommended)
+for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+    String key = entry.getKey();
+    List<String> value = entry.getValue();
+}
+
+
+2. Using keySet()
+for (String key : map.keySet()) {
+    List<String> value = map.get(key);
+}
+
+
+3. Using forEach()
+map.forEach((key, value) -> {
+    System.out.println(key + " " + value);
+});
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
