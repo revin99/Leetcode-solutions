@@ -1,4 +1,4 @@
-#1 How to sort String in Java
+#1 JAVA -  How to sort String
 
 String s = "dcba";
 char[] arr = s.toCharArray();
@@ -7,3 +7,21 @@ s = new String(arr);
 System.out.println(s); // abcd
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+#2 JAVA - If we have map of [key -> List], how to append to list
+
+Traditional Approach (if-else)
+
+if (map.containsKey(key)) {
+    map.get(key).add(value);
+} else {
+    List<String> list = new ArrayList<>();
+    list.add(value);
+    map.put(key, list);
+}
+
+
+Suggested Approach (computeIfAbsent)
+
+map.computeIfAbsent(key, k -> new ArrayList<>()).add(value);
+
+----------------------------------------------------------------------------------------------------------------------------------------------
