@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/revin99/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/revin99/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0705-design-hashset](https://github.com/revin99/Leetcode-solutions/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/revin99/Leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Hash Table
 |  |
 | ------- |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/revin99/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/revin99/Leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0705-design-hashset](https://github.com/revin99/Leetcode-solutions/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/revin99/Leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Sorting
 |  |
 | ------- |
@@ -58,12 +60,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/revin99/Leetcode-solutions/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/revin99/Leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Design
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/revin99/Leetcode-solutions/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/revin99/Leetcode-solutions/tree/master/0706-design-hashmap) |
 ## Hash Function
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/revin99/Leetcode-solutions/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/revin99/Leetcode-solutions/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
